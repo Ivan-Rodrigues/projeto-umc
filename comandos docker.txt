@@ -1,0 +1,2 @@
+docker build --tag projeto-umc .
+docker run -dit --name projeto-umc -p 80:80 projeto-umc
